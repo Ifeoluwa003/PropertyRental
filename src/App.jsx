@@ -1,13 +1,21 @@
-import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Homepage from "./pages/home/home"
+import Propertylist from './pages/propertylist/propertylist'
+
 
 
 function App() {
  
 
   return (
-    <>
-      <h1>Hello world</h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Homepage/>}/>
+        <Route path='/propertylist' element={<Propertylist/>}/>
+
+      </Routes>
+    
+    </BrowserRouter>
   )
 }
 
