@@ -17,7 +17,7 @@ function Navbar() {
         <div className="nav2">
           <Link to={"/"}>HOME</Link>
           <Link to={"/propertylist"}>PROPERTY LIST</Link>
-          <Link to={"/bookingform"}>BOOKING FORM</Link>
+          <Link to={"/bookinspection"}>BOOK INSPECTION</Link>
         </div>
 
         <div>

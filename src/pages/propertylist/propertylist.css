@@ -44,17 +44,6 @@
   color: rgba(72, 74, 74, 0.888);
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .wsection{
   display: flex;
   justify-content: space-evenly;
@@ -62,7 +51,7 @@
 }
 
 .wsection1{
-  background: rgb(194, 184, 189);
+  background: rgb(173, 169, 171);
   border-radius: 10px;
   line-height: 1;
 }
@@ -117,7 +106,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(130, 126, 126);
+  background: #696767;
   border: none;
   border-radius: 5px;
   padding: 5px 8px;
@@ -130,8 +119,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background: rgb(130, 126, 126); */
-  background: #555;
+  background: #696767;
   border: none;
   border-radius: 5px;
   padding: 4px 8px;

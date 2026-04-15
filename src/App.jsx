@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Homepage from "./pages/home/home"
 import Propertylist from './pages/propertylist/propertylist'
+import Bookinspection from './pages/bookinspection/bookinspection'
 
 
 
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Homepage/>}/>
         <Route path='/propertylist' element={<Propertylist/>}/>
+        <Route path='/bookinspection' element={<Bookinspection/>}/>
 
       </Routes>
     

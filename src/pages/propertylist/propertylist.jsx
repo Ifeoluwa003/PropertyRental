@@ -1,10 +1,9 @@
 import "./propertylist.css"
 import Navbar from "../components/nav/nav"
+import Footer from "../components/footer/footer"
 import { Link, useNavigate } from "react-router-dom"
 import { CgShoppingCart } from "react-icons/cg";
-import { IoIosArrowDropright } from "react-icons/io";
 
-import React from 'react'
 
 
 
@@ -36,44 +35,48 @@ function Propertylist() {
           </div>
         </div>
 
-        <div className="wsection2">
+        <div className="wsection1">
           <img src="/assets/hs3.jpg" alt="" width={150} height={150}/>
-          <h3>Two Bedroom Apartment</h3>
-          <h5>📍 12 Bodija Road, Bodija, Ibadan</h5>
-          <small>"A spacious two-bedroom apartment featuring <br /> a sitting room, two well-sized bedrooms, <br /> bathrooms and toilets, and a modern kitchen"</small>
-          <div className="wsBtn2">
-            <button className="contactBtn"><Link to={"/cart"}> Contact </Link></button>
-            <button className="cartBtn"><Link to={"/cart"}><CgShoppingCart className="cartt" /> </Link> </button>
+          <div className="wsection1Info">
+            <h3>Two Bedroom Apartment</h3>
+            <h5>📍 12 Bodija Road, Bodija, Ibadan</h5>
+            <small>"A spacious two-bedroom apartment featuring <br /> a sitting room, two well-sized bedrooms, <br /> bathrooms and toilets, and a modern kitchen"</small>
+          </div>
+          <div className="wsBtn1">
+            <Link to={"/cart"} className="contactBtn1"> Contact </Link>
+            <Link to={"/cart"} className="cartBtn1"><CgShoppingCart className="cartt1" /> </Link>
           </div>
         </div>
 
-        <div className="wsection3">
+        <div className="wsection1">
           <img src="/assets/hs5.jpg" alt="" width={150} height={150}/>
-          <h3>Three Bedroom Apartment</h3>
-          <h5>📍 6 Agodi GRA, Agodi, Ibadan</h5>
-          <small>"A suitable three-bedroom apartment featuring <br /> a sitting room, three well-sized bedrooms, <br /> bathrooms and toilets, and a modern kitchen"</small>
-          <div className="wsBtn3">
-            <button className="contactBtn"><Link to={"/cart"}> Contact </Link></button>
-            <button className="cartBtn"><Link to={"/cart"}><CgShoppingCart className="cartt" /> </Link> </button>
+          <div className="wsection1Info">
+            <h3>Three Bedroom Apartment</h3>
+            <h5>📍 6 Agodi GRA, Agodi, Ibadan</h5>
+            <small>"A suitable three-bedroom apartment featuring <br /> a sitting room, three well-sized bedrooms, <br /> bathrooms and toilets, and a modern kitchen"</small>
+          </div>
+          <div className="wsBtn1">
+            <Link to={"/cart"} className="contactBtn1"> Contact </Link>
+            <Link to={"/cart"} className="cartBtn1"><CgShoppingCart className="cartt1" /> </Link>
           </div>
         </div>
 
-        <div className="wsection3">
+        <div className="wsection1">
           <img src="/assets/hs5.jpg" alt="" width={150} height={150}/>
-          <h3>Three Bedroom Apartment</h3>
-          <h5>📍 6 Agodi GRA, Agodi, Ibadan</h5>
-          <small>"A suitable three-bedroom apartment featuring <br /> a sitting room, three well-sized bedrooms, <br /> bathrooms and toilets, and a modern kitchen"</small>
-          <div className="wsBtn3">
-            <button className="contactBtn"><Link to={"/cart"}> Contact </Link></button>
-            <button className="cartBtn"><Link to={"/cart"}><CgShoppingCart className="cartt" /> </Link> </button>
+          <div className="wsection1Info">
+            <h3>Three Bedroom Apartment</h3>
+            <h5>📍 6 Agodi GRA, Agodi, Ibadan</h5>
+            <small>"A suitable three-bedroom apartment featuring <br /> a sitting room, three well-sized bedrooms, <br /> bathrooms and toilets, and a modern kitchen"</small>
+          </div>
+          <div className="wsBtn1">
+            <Link to={"/cart"} className="contactBtn1"> Contact </Link>
+            <Link to={"/cart"} className="cartBtn1"><CgShoppingCart className="cartt1" /> </Link>
           </div>
         </div>
         
 
       </div>
-
-        
-            
+      <Footer/>
 
       
     </div>

@@ -35,7 +35,7 @@ function Footer() {
           <div className="footer3">
             <h4>LINKS</h4>
             <div>
-              <h6> <Link to ={"/"}>Home</Link> <br /> <Link to ={"/propertylist"}>Property list</Link> <br /> <Link to ={"/bookingform"}>Booking form</Link></h6>
+              <h6> <Link to ={"/"}>Home</Link> <br /> <Link to ={"/propertylist"}>Property list</Link> <br /> <Link to ={"/bookinspection"}>Book Inspection</Link></h6>
             </div>
 
           </div>
